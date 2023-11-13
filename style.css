@@ -331,3 +331,28 @@ textarea:focus {
 textarea {
   height: 15rem;
 }
+
+/* image flex */
+.img-flex {
+  display: flex;
+  padding: 2rem;
+}
+
+.img-flex-item {
+  max-width: 350px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.img-flex-item:hover img {
+  scale: 1.125;
+}
+
+.img-flex-item img {
+  transition: 300ms ease;
+  transform-origin: center;
+  max-width: 35rem;
+}
